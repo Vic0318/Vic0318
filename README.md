@@ -1,98 +1,105 @@
 <div align="center">
 
-  <!-- Banner con efecto typing dinámico -->
+  <!-- BANNER DINÁMICO CON DEGRADADO Y OLAS FLUIDAS -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,18,24,28&height=220&section=header&text=Victor%20%7C%20Vic0318&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%E2%80%A2%20Cloud%20%26%20Backend%20Architect&descAlignY=62&descSize=18" width="100%" alt="Header Banner" />
+
+  <!-- EFECTO TYPING DINÁMICO EN JETBRAINS MONO -->
   <a href="https://vic0318.github.io/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Hola%2C+soy+Victor+%F0%9F%91%8B;Desarrollador+de+Software+%26+Cloud;TypeScript+%7C+Python+%7C+Docker+%7C+SQL;Explora+mi+portafolio+web+%E2%86%92" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=23&duration=2800&pause=900&color=6366F1&center=true&vCenter=true&width=700&lines=Hola%2C+soy+Victor+%F0%9F%91%8B;Software+Developer+%C2%B7+Cloud+%26+Backend;TypeScript+%7C+Python+%7C+Docker+%7C+SQL;Conoce+mi+portafolio+web+%E2%86%92" alt="Typing SVG" />
   </a>
 
+  <br>
+
+  <!-- BADGES DE CONTACTO Y PERFIL -->
   <p align="center">
-    <strong>Ingeniería de Software • Plataformas Web • Arquitectura Cloud & Microservicios</strong>
+    <a href="https://vic0318.github.io/"><img src="https://img.shields.io/badge/🌐_Portafolio-vic0318.github.io-6366f1?style=for-the-badge&logoColor=white" alt="Portafolio Web"></a>&nbsp;&nbsp;
+    <a href="mailto:vamv2003@gmail.com"><img src="https://img.shields.io/badge/Gmail-vamv2003%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>&nbsp;&nbsp;
+    <a href="https://github.com/Vic0318?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Repositorios-0d1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
   </p>
 
-  <p align="center">
-    <a href="https://vic0318.github.io/">
-      <img src="https://img.shields.io/badge/🌐_Portafolio_Web-vic0318.github.io-6366F1?style=for-the-badge&logoColor=white" alt="Portfolio Badge"/>
-    </a>
-    <a href="mailto:vamv2003@gmail.com">
-      <img src="https://img.shields.io/badge/Email-vamv2003%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge"/>
-    </a>
-    <a href="https://github.com/Vic0318?tab=repositories">
-      <img src="https://img.shields.io/badge/Repositorios-15+-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Repos Badge"/>
-    </a>
-  </p>
+  <!-- CONTADOR DE VISITAS -->
+  <img src="https://komarev.com/ghpvc/?username=Vic0318&style=flat-square&color=6366f1&label=PROFILE+VIEWS" alt="Profile Views" />
 
 </div>
 
 ---
 
-### 👨‍💻 Sobre Mí
+### 🏆 Trofeos de GitHub
 
- 🌐 **Sitio Web & Portafolio:** Visita [vic0318.github.io](https://vic0318.github.io/) para conocer más sobre mi trayectoria y ver demos interactivas.
- 🔭 **Enfoque Actual:** Diseño y desarrollo de plataformas web escalables, arquitecturas backend seguras e infraestructura basada en contenedores.
- 🐳 **Contenedorización & Cloud:** Implementación de entornos con Docker, Docker Compose y servicios IaaS.
- 🗄️ **Gestión de Datos:** Modelado y administración de bases de datos relacionales (**PostgreSQL**, **MariaDB**) y NoSQL (**Apache CouchDB**).
- 💬 **Pregúntame sobre:** TypeScript, Python, Flask, arquitecturas MVC/ORM y virtualización con Docker.
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Vic0318&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+</div>
 
 ---
 
-### 🛠️ Tecnologías y Herramientas
+## 👨‍💻 about
+
+Hola, soy **Victor**, desarrollador de software enfocado en la construcción de plataformas web robustas, arquitecturas backend escalables e infraestructura en la nube 🚀.
+
+- 🌐 **Portafolio en vivo:** Explora mi sitio web interactivo en [vic0318.github.io](https://vic0318.github.io/).
+- 💻 **Desarrollo Full-Stack:** Creación de soluciones web con tipado estricto en **TypeScript** y backends ágiles con **Python (Flask)**.
+- 🐳 **Cloud & Contenedores:** Orquestación de entornos aislados con **Docker & Docker Compose** y despliegues en infraestructura **IaaS**.
+- 🗄️ **Gestión y Persistencia de Datos:** Modelado en bases de datos relacionales (**PostgreSQL**, **MariaDB**) y bases NoSQL documentales (**Apache CouchDB**).
+- 🧩 **Paradigmas Diversos:** Experiencia en programación funcional con **Scala** y patrones arquitectónicos MVC/ORM.
+- 🎯 **Meta 2026:** Arquitecturas de microservicios distribuidos de alta disponibilidad y soluciones cloud-native.
+
+---
+
+## 🛠️ stack
 
 <div align="center">
 
-#### Lenguajes de Programación
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white" alt="Scala"/>
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-</p>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=ts,js,python,scala,php,html,css,flask,nodejs,vite,postgres,mysql,docker,linux,git,github,bash&perline=9" alt="Skills Stack" />
+</a>
 
-#### Backend, Frameworks & Entornos
-<p>
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
-  <img src="https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge&logoColor=white" alt="REST APIs"/>
-</p>
+<br>
 
-#### Bases de Datos & Cloud / DevOps
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB"/>
-  <img src="https://img.shields.io/badge/Apache_CouchDB-E42528?style=for-the-badge&logo=apachecouchdb&logoColor=white" alt="CouchDB"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-</p>
+<sub>🗃️ <strong>NoSQL:</strong> Apache CouchDB &bull; 🏗️ <strong>Arquitectura:</strong> MVC &bull; ORMs &bull; RESTful APIs &bull; Microservicios Docker</sub>
 
 </div>
 
 ---
 
-### 🚀 Proyectos Destacados
+## 🚀 projects
 
-| Proyecto | Descripción | Tecnologías | Enlace |
+| Proyecto | Qué hace | Stack Tecnológico | Código |
 | :--- | :--- | :--- | :---: |
-| **Plataformas Web** | Plataforma web modular con componentes tipados y arquitectura orientada a servicios. | `TypeScript`, `Web Platform` | [Ver Código](https://github.com/Vic0318/proyecto_plataformas_web) |
-| **Flask en IaaS** | Aplicación backend configurada para despliegue y escalabilidad en infraestructura como servicio. | `Python`, `Flask`, `IaaS` | [Ver Código](https://github.com/Vic0318/app-flask-iaas) |
-| **Docker LAMP & DB** | Orquestación completa de entorno web con Apache, PHP y bases de datos aisladas en contenedores. | `Docker`, `Docker Compose`, `SQL` | [Ver Código](https://github.com/Vic0318/docker-compose-apache-php-bd) |
-| **CouchDB Clúster NoSQL** | Configuración base de base de datos documental orientada a almacenamiento JSON y vistas. | `CouchDB`, `NoSQL`, `Docker` | [Ver Código](https://github.com/Vic0318/couchdb-docker-base) |
-| **ORM Multimotor** | Patrón ORM compatible con PostgreSQL y MariaDB con mapeo avanzado de entidades. | `MariaDB`, `PostgreSQL`, `ORM` | [Ver Código](https://github.com/Vic0318/ejemplo-orm-tipos-v2) |
+| **Plataformas Web** | Plataforma modular con componentes tipados, consumo de APIs y arquitectura escalable. | `TypeScript` `Web Architecture` | [Ver Repo ↗](https://github.com/Vic0318/proyecto_plataformas_web) |
+| **Cloud App en IaaS** | Backend en Flask estructurado para despliegue y orquestación sobre infraestructura cloud. | `Python` `Flask` `IaaS` `Cloud` | [Ver Repo ↗](https://github.com/Vic0318/app-flask-iaas) |
+| **Docker LAMP & DB** | Entorno contenerizado con Apache, PHP y bases de datos con persistencia en volúmenes. | `Docker` `Compose` `Apache` `SQL` | [Ver Repo ↗](https://github.com/Vic0318/docker-compose-apache-php-bd) |
+| **CouchDB NoSQL Cluster** | Clúster documental sobre Apache CouchDB con gestión de documentos JSON y vistas. | `CouchDB` `NoSQL` `Docker` | [Ver Repo ↗](https://github.com/Vic0318/couchdb-docker-base) |
+| **ORM Multimotor** | Capa de persistencia agnóstica compatible simultáneamente con PostgreSQL y MariaDB. | `MariaDB` `PostgreSQL` `ORM` | [Ver Repo ↗](https://github.com/Vic0318/ejemplo-orm-tipos-v2) |
+| **Algoritmos Funcionales** | Implementación de algoritmos y estructuras de datos con paradigma funcional puro en Scala. | `Scala` `Functional Programming` | [Ver Repo ↗](https://github.com/Vic0318/ActividadSemanal) |
 
 ---
 
-### 📊 Estadísticas de GitHub
+## 📊 activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Vic0318&show_icons=true&theme=tokyonight&hide_border=true&title_color=6366F1&text_color=94A3B8&icon_color=06B6D4" alt="Estadísticas de GitHub de Vic0318" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vic0318&layout=compact&theme=tokyonight&hide_border=true&title_color=6366F1&text_color=94A3B8" alt="Lenguajes más usados de Vic0318" height="165" />
+
+  <!-- TARJETAS DE ESTADÍSTICAS Y LENGUAJES -->
+  <img src="https://github-readme-stats.vercel.app/api?username=Vic0318&show_icons=true&theme=tokyonight&hide_border=true&title_color=6366F1&text_color=94A3B8&icon_color=06B6D4" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vic0318&layout=compact&theme=tokyonight&hide_border=true&title_color=6366F1&text_color=94A3B8" height="165" alt="Top Languages" />
+
+  <br><br>
+
+  <!-- RACHA DE CONTRIBUCIONES (STREAK STATS) -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vic0318&theme=tokyonight&hide_border=true&ring=6366F1&fire=06B6D4&currStreakLabel=6366F1" height="160" alt="GitHub Streak" />
+
+  <br><br>
+
+  <!-- ANIMACIÓN RETRO DE LA SERPIENTE COMIENDO EL HISTORIAL DE CONTRIBUCIONES -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vic0318/Vic0318/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vic0318/Vic0318/output/github-contribution-grid-snake.svg">
+    <img src="https://raw.githubusercontent.com/Vic0318/Vic0318/output/github-contribution-grid-snake-dark.svg" alt="Snake eating contribution graph">
+  </picture>
+
 </div>
 
 ---
 
 <div align="center">
-  <sub>⭐ Diseñado para destacar proyectos, habilidades y experiencia profesional. Visita mi portafolio en <a href="https://vic0318.github.io/">vic0318.github.io</a></sub>
+  <sub>⚡ Desarrollado con pasión por el software de calidad. Visita mi portafolio en <a href="https://vic0318.github.io/">vic0318.github.io</a></sub>
 </div>
