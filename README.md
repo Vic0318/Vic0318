@@ -27,11 +27,11 @@
 
 ### 👨‍💻 Sobre Mí
 
-- 🌐 **Sitio Web & Portafolio:** Visita [vic0318.github.io](https://vic0318.github.io/) para conocer más sobre mi trayectoria y ver demos interactivas.
-- 🔭 **Enfoque Actual:** Diseño y desarrollo de plataformas web escalables, arquitecturas backend seguras e infraestructura basada en contenedores.
-- 🐳 **Contenedorización & Cloud:** Implementación de entornos con Docker, Docker Compose y servicios IaaS.
-- 🗄️ **Gestión de Datos:** Modelado y administración de bases de datos relacionales (**PostgreSQL**, **MariaDB**) y NoSQL (**Apache CouchDB**).
-- 💬 **Pregúntame sobre:** TypeScript, Python, Flask, arquitecturas MVC/ORM y virtualización con Docker.
+ 🌐 **Sitio Web & Portafolio:** Visita [vic0318.github.io](https://vic0318.github.io/) para conocer más sobre mi trayectoria y ver demos interactivas.
+ 🔭 **Enfoque Actual:** Diseño y desarrollo de plataformas web escalables, arquitecturas backend seguras e infraestructura basada en contenedores.
+ 🐳 **Contenedorización & Cloud:** Implementación de entornos con Docker, Docker Compose y servicios IaaS.
+ 🗄️ **Gestión de Datos:** Modelado y administración de bases de datos relacionales (**PostgreSQL**, **MariaDB**) y NoSQL (**Apache CouchDB**).
+ 💬 **Pregúntame sobre:** TypeScript, Python, Flask, arquitecturas MVC/ORM y virtualización con Docker.
 
 ---
 
