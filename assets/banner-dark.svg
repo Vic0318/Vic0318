@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="glowDark" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .terminal-title { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 13px; fill: #64748b; font-weight: 500; }
+    .code-prompt { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 15px; fill: #38bdf8; font-weight: 600; }
+    .code-cmd { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 15px; fill: #f8fafc; font-weight: 500; }
+    .code-comment { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 13px; fill: #64748b; font-style: italic; }
+    .code-tag { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 12px; fill: #a5b4fc; }
+    .node-label { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 11px; fill: #cbd5e1; font-weight: 600; }
+    .pulse-dot { animation: pulse 3s infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 0.8; } 50% { opacity: 0.3; } }
+  </style>
+
+  <!-- Marco de Ventana Terminal -->
+  <rect x="0" y="0" width="900" height="260" rx="16" fill="url(#bgGradDark)" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Barra de Encabezado Terminal -->
+  <rect x="0" y="0" width="900" height="42" rx="16" fill="#131b2e" />
+  <rect x="0" y="26" width="900" height="16" fill="#131b2e" />
+  <line x1="0" y1="42" x2="900" y2="42" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Botones de Control (Estilo Mac/Unix) -->
+  <circle cx="28" cy="21" r="6" fill="#ef4444"/>
+  <circle cx="48" cy="21" r="6" fill="#f59e0b"/>
+  <circle cx="68" cy="21" r="6" fill="#10b981"/>
+
+  <!-- Título de la Terminal -->
+  <text x="450" y="26" text-anchor="middle" class="terminal-title">vic0318@cloud-node: ~ / architecture</text>
+
+  <!-- LADO IZQUIERDO: Código y Comandos -->
+  <g transform="translate(40, 75)">
+    <text x="0" y="20">
+      <tspan class="code-prompt">❯ </tspan>
+      <tspan class="code-cmd">system.deploy</tspan>
+      <tspan fill="#64748b"> --env </tspan>
+      <tspan fill="#38bdf8">"production"</tspan>
+    </text>
+
+    <text x="0" y="55" class="code-comment">// Full-stack platforms &amp; cloud infrastructure</text>
+
+    <!-- Badges de Estado Internos -->
+    <g transform="translate(0, 75)">
+      <rect x="0" y="0" width="130" height="30" rx="8" fill="#172554" stroke="#1d4ed8" stroke-width="1"/>
+      <circle cx="16" cy="15" r="4" fill="#38bdf8"/>
+      <text x="28" y="19" class="code-tag">TypeScript / Web</text>
+
+      <rect x="140" y="0" width="130" height="30" rx="8" fill="#064e3b" stroke="#047857" stroke-width="1"/>
+      <circle cx="156" cy="15" r="4" fill="#34d399"/>
+      <text x="168" y="19" class="code-tag">Python / Cloud</text>
+
+      <rect x="280" y="0" width="130" height="30" rx="8" fill="#312e81" stroke="#4338ca" stroke-width="1"/>
+      <circle cx="296" cy="15" r="4" fill="#818cf8"/>
+      <text x="308" y="19" class="code-tag">Docker / NoSQL</text>
+    </g>
+
+    <text x="0" y="145">
+      <tspan class="code-prompt">❯ </tspan>
+      <tspan class="code-cmd">status: </tspan>
+      <tspan fill="#34d399" font-weight="600">● 100% operational</tspan>
+      <tspan fill="#64748b"> | latency: 12ms</tspan>
+    </text>
+  </g>
+
+  <!-- SEPARADOR VERTICAL SUTIL -->
+  <line x1="490" y1="65" x2="490" y2="235" stroke="#1e293b" stroke-dasharray="4,4"/>
+
+  <!-- LADO DERECHO: Diagrama Vectorial de Red / Microservicios -->
+  <g transform="translate(520, 60)">
+    <!-- Conexiones con degradado y glow -->
+    <path d="M 60,65 Q 160,25 240,45" fill="none" stroke="url(#primaryGrad)" stroke-width="2" opacity="0.6"/>
+    <path d="M 60,65 Q 150,110 240,115" fill="none" stroke="url(#primaryGrad)" stroke-width="2" opacity="0.6"/>
+    <path d="M 160,25 Q 240,45 280,80" fill="none" stroke="url(#accentGrad)" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.8"/>
+    <path d="M 240,115 Q 180,140 100,130" fill="none" stroke="url(#accentGrad)" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.8"/>
+
+    <!-- Nodo Central: Web Gateway / App -->
+    <g transform="translate(30, 40)">
+      <rect x="0" y="0" width="70" height="50" rx="10" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.5" filter="url(#glowDark)"/>
+      <text x="35" y="30" text-anchor="middle" class="node-label">APP</text>
+    </g>
+
+    <!-- Nodo Arriba: Cloud / Microservicios -->
+    <g transform="translate(130, 2)">
+      <rect x="0" y="0" width="76" height="42" rx="10" fill="#082f49" stroke="#0ea5e9" stroke-width="1.5"/>
+      <text x="38" y="26" text-anchor="middle" class="node-label">CLOUD</text>
+    </g>
+
+    <!-- Nodo Derecha Arriba: Docker Containers -->
+    <g transform="translate(230, 24)">
+      <rect x="0" y="0" width="84" height="44" rx="10" fill="#022c22" stroke="#10b981" stroke-width="1.5"/>
+      <text x="42" y="27" text-anchor="middle" class="node-label">DOCKER</text>
+    </g>
+
+    <!-- Nodo Derecha Abajo: Databases (Postgres & CouchDB) -->
+    <g transform="translate(225, 95)">
+      <rect x="0" y="0" width="90" height="44" rx="10" fill="#2e1065" stroke="#a855f7" stroke-width="1.5"/>
+      <text x="45" y="27" text-anchor="middle" class="node-label">DATA / BD</text>
+    </g>
+
+    <!-- Partículas / Pulsos -->
+    <circle cx="160" cy="80" r="3" fill="#38bdf8" class="pulse-dot"/>
+    <circle cx="205" cy="120" r="2.5" fill="#34d399" class="pulse-dot"/>
+    <circle cx="210" cy="40" r="2.5" fill="#a855f7" class="pulse-dot"/>
+  </g>
+</svg>
